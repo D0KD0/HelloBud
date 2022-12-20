@@ -12,7 +12,7 @@ https://docs.google.com/document/d/1Ko8boWRXi6beDsV0QttQivDuUlX-f_ooziPtvWUrRyM/
 https://docs.google.com/presentation/d/1Ee08idW3y7gSYgEToSyvg1pnyikVV4RpgokeD681PMQ/edit?usp=sharing
 
 ## Language
-*HTML, CSS(framework), JavaScript, SQL, Sequelize, 3rd party API
-*Node,  Express, dotenv
-*MVC(Handlebars, Cookies), Heroku for deployment
+* HTML, CSS(framework), JavaScript, SQL, Sequelize, 3rd party API
+* Node,  Express, dotenv
+* MVC(Handlebars, Cookies), Heroku for deployment
 
