@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS hellobud_db;
+CREATE DATABASE hellobud_db;

@@ -1,0 +1,31 @@
+{
+  "name": "hellobud",
+  "version": "1.0.0",
+  "description": "## Description This app will provide users with unique cannabis promotions in selected area(such as orange county) Provide promotion code that users can apply  Idea 1: Otreeba Open Cannabis API (https://api.otreeba.com/swagger/) / Maybe focused on smaller area (such as OC) for higher accuracy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D0KD0/HelloBud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D0KD0/HelloBud/issues"
+  },
+  "homepage": "https://github.com/D0KD0/HelloBud#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.28.0",
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3"
+  }
+}
