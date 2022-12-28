@@ -8,4 +8,7 @@ router.get("/signup", async (req, res) => {
     res.render("signup")
 })
 
+router.get("/dispensary", async (req, res) => {
+    res.render("dispensary")
+})
 module.exports = router;
