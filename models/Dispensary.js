@@ -16,6 +16,10 @@ Dispensary.init(
         type: DataTypes.STRING,
         allowNull: false,
       },
+      phone: {
+        type: DataTypes.String,
+        allowNull: false,
+      },
       address: {
         type: DataTypes.STRING,
       },
@@ -28,6 +32,9 @@ Dispensary.init(
       zip_code: {
         type: DataTypes.INTEGER,
       },
+      point: {
+        type: DataTypes.GEOMETRY
+      }
     },
     {
       sequelize,
