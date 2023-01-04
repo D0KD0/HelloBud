@@ -6,10 +6,16 @@ router.get("/", async (req, res) => {
 
 router.get("/products", async (req, res) => {
     res.render("products")
+
+    
+
+
+
 })
 
 router.get("/dispensary", async (req, res) => {
     res.render("dispensary")
+    
 })
 
 router.get("/deals", async (req, res) => {
