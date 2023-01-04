@@ -1,0 +1,1178 @@
+[
+    {
+        "name": "(hybrid) Fruity Pebbles (33.7% THC -premium)",
+        "price": 32.00,
+        "category_id": 1,
+        "brand_id": 1,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(hybrid) Jet Fuel",
+        "price": 21.00,
+        "category_id": 1,
+        "brand_id": 1,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(indica) She Devil (36.1% THC- Premium)",
+        "price": 33.00,
+        "category_id": 1,
+        "brand_id": 1,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(indica) Tahoe OG",
+        "price": 22.00,
+        "category_id": 1,
+        "brand_id": 1,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(sativa) Hawaiian Sunrise",
+        "price": 24.00,
+        "category_id": 1,
+        "brand_id": 1,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(HYB/IND) Around the World",
+        "price": 14.00,
+        "category_id": 2,
+        "brand_id": 2,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(HYB/IND) Cookie Platter",
+        "price": 16.00,
+        "category_id": 2,
+        "brand_id": 2,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(HYB/IND) Exotic Pack",
+        "price": 15.00,
+        "category_id": 2,
+        "brand_id": 2,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(HYB/IND) Gas Pack",
+        "price": 14.00,
+        "category_id": 2,
+        "brand_id": 2,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(SAT/HYB) Creative Pack",
+        "price": 14.00,
+        "category_id": 2,
+        "brand_id": 2,
+        "dispensary_id": 1
+    },
+    {
+        "name": "Coco Puffs",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 3,
+        "dispensary_id": 1
+    },
+    {
+        "name": "Cookie Crisps",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 3,
+        "dispensary_id": 1
+    },
+    {
+        "name": "Fruit Lopps",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 3,
+        "dispensary_id": 1
+    },
+    {
+        "name": "Rice Krispy",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 3,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(indica) Bubblegum Gelato (78.62% THC)",
+        "price": 55.00,
+        "category_id": 4,
+        "brand_id": 4,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(indica) Grape-Octane (78.08% THC)",
+        "price": 52.00,
+        "category_id": 4,
+        "brand_id": 4,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(indica) Triangle Mintz (78.06% THC)",
+        "price": 55.00,
+        "category_id": 4,
+        "brand_id": 4,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(indica) Whie Cherry Icee (78.21% THC)",
+        "price": 54.00,
+        "category_id": 4,
+        "brand_id": 4,
+        "dispensary_id": 1
+    },
+    {
+        "name": "(hybrid) Wedding Cake (78.98% THC)",
+        "price": 54.00,
+        "category_id": 4,
+        "brand_id": 4,
+        "dispensary_id": 1
+    },
+    {
+        "name": "A Golden State - Caramel Apple",
+        "price": 27.00,
+        "category_id": 1,
+        "brand_id": 5,
+        "dispensary_id": 2
+    },
+    {
+        "name": "A Golden State - Garlic Blossom",
+        "price": 22.00,
+        "category_id": 1,
+        "brand_id": 5,
+        "dispensary_id": 2
+    },
+    {
+        "name": "A Golden State - Lava Flower",
+        "price": 23.00,
+        "category_id": 1,
+        "brand_id": 5,
+        "dispensary_id": 2
+    },
+    {
+        "name": "A Golden State - Night Sky",
+        "price": 27.00,
+        "category_id": 1,
+        "brand_id": 5,
+        "dispensary_id": 2
+    },
+    {
+        "name": "A Golden State - Sunbeam",
+        "price": 23.00,
+        "category_id": 1,
+        "brand_id": 5,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Tangerine Diamonds",
+        "price": 12.00,
+        "category_id": 2,
+        "brand_id": 6,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Pink Supernova",
+        "price": 12.00,
+        "category_id": 2,
+        "brand_id": 6,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Burmese Squeeze",
+        "price": 14.00,
+        "category_id": 2,
+        "brand_id": 6,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Crushed Cookies",
+        "price": 14.00,
+        "category_id": 2,
+        "brand_id": 6,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Sunny Daze",
+        "price": 12.00,
+        "category_id": 2,
+        "brand_id": 6,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Mints: Citrus CBD- 200mg",
+        "price": 12.00,
+        "category_id": 3,
+        "brand_id": 7,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Mints: Royal Mint Hybrid- 100mg",
+        "price": 12.00,
+        "category_id": 3,
+        "brand_id": 7,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Tablets: Indica Extra Strength- 1,000mg",
+        "price": 12.00,
+        "category_id": 3,
+        "brand_id": 7,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Tablets: Sativa Etra Strength- 1,000mg",
+        "price": 12.00,
+        "category_id": 3,
+        "brand_id": 7,
+        "dispensary_id": 2
+    },
+    {
+        "name": "Bacio 1/8th",
+        "price": 23.00,
+        "category_id": 1,
+        "brand_id": 8,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Crostata 1/8th",
+        "price": 23.00,
+        "category_id": 1,
+        "brand_id": 8,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Gelato 33 1/8",
+        "price": 23.00,
+        "category_id": 1,
+        "brand_id": 8,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Runtz 44 1/8th",
+        "price": 23.00,
+        "category_id": 1,
+        "brand_id": 8,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Banjo 1g",
+        "price": 6.00,
+        "category_id": 2,
+        "brand_id": 9,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Chem Breath 1g",
+        "price": 6.00,
+        "category_id": 2,
+        "brand_id": 9,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Lemon Glue 1g",
+        "price": 6.00,
+        "category_id": 2,
+        "brand_id": 9,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Triangle Kush 1g",
+        "price": 6.00,
+        "category_id": 2,
+        "brand_id": 9,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Kosher Dawg 1g",
+        "price": 6.00,
+        "category_id": 2,
+        "brand_id": 9,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Chocolate Crispy Rice Bar 100 MG",
+        "price": 14.00,
+        "category_id": 3,
+        "brand_id": 10,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Fruity Crispy Rice Bar 100 MG",
+        "price": 14.00,
+        "category_id": 3,
+        "brand_id": 10,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Original Crispy Rice Bar 100 MG",
+        "price": 14.00,
+        "category_id": 3,
+        "brand_id": 10,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Salted Caramel Blondie 100 MG",
+        "price": 14.00,
+        "category_id": 3,
+        "brand_id": 10,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Durban Venom Cartridge 3:1 THC/THCV",
+        "price": 64.00,
+        "category_id": 4,
+        "brand_id": 11,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Lights Out: Cloudberry 3:1 THC/CBN cartridge ",
+        "price": 64.00,
+        "category_id": 4,
+        "brand_id": 11,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Acapulco Gold Cartridge 1g",
+        "price": 54.00,
+        "category_id": 4,
+        "brand_id": 11,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Banana OG Cartridge 1g",
+        "price": 54.00,
+        "category_id": 4,
+        "brand_id": 11,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Blue Dream Cartridge 1g",
+        "price": 54.00,
+        "category_id": 4,
+        "brand_id": 11,
+        "dispensary_id": 3
+    },
+    {
+        "name": "Tropicana 3.5g",
+        "price": 65.00,
+        "category_id": 1,
+        "brand_id": 12,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Cherry Dairy 3.5g",
+        "price": 65.00,
+        "category_id": 1,
+        "brand_id": 12,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Tropical Lemonade 3.5g",
+        "price": 65.00,
+        "category_id": 1,
+        "brand_id": 12,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Apple Fritters 3.5g",
+        "price": 65.00,
+        "category_id": 1,
+        "brand_id": 12,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Superglue 2 pack minis-2ct",
+        "price": 7.00,
+        "category_id": 2,
+        "brand_id": 13,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Superglue minis-12ct",
+        "price": 35.00,
+        "category_id": 2,
+        "brand_id": 13,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Black Jack 12ct",
+        "price": 40.00,
+        "category_id": 2,
+        "brand_id": 13,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Ice Cream Cake Minis 12 ct",
+        "price": 45.00,
+        "category_id": 2,
+        "brand_id": 13,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Hybrid Pomegrante 1:1 Gummies",
+        "price": 22.00,
+        "category_id": 3,
+        "brand_id": 14,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Sativa Raspberry Gummies",
+        "price": 18.00,
+        "category_id": 3,
+        "brand_id": 14,
+        "dispensary_id": 4
+    },
+    {
+        "name": "indica Marionberry Gummies",
+        "price": 18.00,
+        "category_id": 3,
+        "brand_id": 14,
+        "dispensary_id": 4
+    },
+    {
+        "name": "CBN Elderberry Gummies 10ct",
+        "price": 22.00,
+        "category_id": 3,
+        "brand_id": 14,
+        "dispensary_id": 4
+    },
+    {
+        "name": "ASCND- Purple Punch - Disposable",
+        "price": 45.00,
+        "category_id": 4,
+        "brand_id": 15,
+        "dispensary_id": 4
+    },
+    {
+        "name": "ASCND- Tangie Dream - Disposable",
+        "price": 45.00,
+        "category_id": 4,
+        "brand_id": 15,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Blue Dream - Disposable",
+        "price": 45.00,
+        "category_id": 4,
+        "brand_id": 15,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Purple Punch - Disposable",
+        "price": 30.00,
+        "category_id": 4,
+        "brand_id": 15,
+        "dispensary_id": 4
+    },
+    {
+        "name": "Apple Blast 3.5g",
+        "price": 52.00,
+        "category_id": 1,
+        "brand_id": 16,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Apple Ztrudel 3.5g",
+        "price": 52.00,
+        "category_id": 1,
+        "brand_id": 16,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Baby Cakes 3.5g",
+        "price": 60.00,
+        "category_id": 1,
+        "brand_id": 16,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Boozy Brunch 3.5g ",
+        "price": 60.00,
+        "category_id": 1,
+        "brand_id": 16,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Bubble Gum Runtz",
+        "price": 18.00,
+        "category_id": 2,
+        "brand_id": 17,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Camino- Blackberry",
+        "price": 18.00,
+        "category_id": 2,
+        "brand_id": 17,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Camino- Citrus",
+        "price": 16.00,
+        "category_id": 2,
+        "brand_id": 17,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Cherry Bomb",
+        "price": 18.00,
+        "category_id": 2,
+        "brand_id": 17,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Hazelnut Spread 100MG",
+        "price": 23.00,
+        "category_id": 3,
+        "brand_id": 18,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Honey 100MG",
+        "price": 23.00,
+        "category_id": 3,
+        "brand_id": 18,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Hybrid Royal Tinc 100MG",
+        "price": 26.00,
+        "category_id": 3,
+        "brand_id": 18,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Lost Farm",
+        "price": 22.00,
+        "category_id": 3,
+        "brand_id": 18,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Strawberry Cream",
+        "price": 22.00,
+        "category_id": 4,
+        "brand_id": 19,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Super Lemon Haze",
+        "price": 20.00,
+        "category_id": 4,
+        "brand_id": 19,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Banana Smoothie 1g",
+        "price": 22.00,
+        "category_id": 4,
+        "brand_id": 19,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Lemon Cooler 1g",
+        "price": 23.00,
+        "category_id": 4,
+        "brand_id": 19,
+        "dispensary_id": 5
+    },
+    {
+        "name": "Envy (30.84% THC)",
+        "price": 32.00,
+        "category_id": 1,
+        "brand_id": 20,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Grease Monkey (28.07% THC)",
+        "price": 40.00,
+        "category_id": 1,
+        "brand_id": 20,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Milkshake Grenade (28.01%  THC)",
+        "price": 32.00,
+        "category_id": 1,
+        "brand_id": 20,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Supreme 41 (30.87 THC)",
+        "price": 40.00,
+        "category_id": 1,
+        "brand_id": 20,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Vovo (25.62% THC)",
+        "price": 32.00,
+        "category_id": 1,
+        "brand_id": 20,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Armored Angel Infused CBN 7 pack 3.5g",
+        "price": 42.00,
+        "category_id": 2,
+        "brand_id": 21,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Bombed Buzz High THC Infused 7 pack 3.5g",
+        "price": 38.00,
+        "category_id": 2,
+        "brand_id": 21,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Bombed Buzz Low THC 7 pack 3.5g",
+        "price": 38.00,
+        "category_id": 2,
+        "brand_id": 20,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Devil's Dawn High THC 7 pack 3.5g",
+        "price": 38.00,
+        "category_id": 2,
+        "brand_id": 21,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Blood Orange Cardamom Hi Boy 4-pack",
+        "price": 30.00,
+        "category_id": 3,
+        "brand_id": 22,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Cann Lightning Drops 100MG shot",
+        "price": 19.00,
+        "category_id": 3,
+        "brand_id": 22,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Cann Roadies Ginger Lemongrass 8pk",
+        "price": 23.00,
+        "category_id": 3,
+        "brand_id": 22,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Cloudy Apple Rhubarb Lite Tonic 6-pack",
+        "price": 29.00,
+        "category_id": 3,
+        "brand_id": 22,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Bloom Surf Berry Pie .5g Live Rosin Disp Vape",
+        "price": 36.00,
+        "category_id": 4,
+        "brand_id": 23,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Bloom Surf Maui Wowie .5g Disp Vape",
+        "price": 28.00,
+        "category_id": 4,
+        "brand_id": 23,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Blue Dream Cartridge 1g",
+        "price": 40.00,
+        "category_id": 4,
+        "brand_id": 23,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Green Crack ",
+        "price": 40.00,
+        "category_id": 4,
+        "brand_id": 23,
+        "dispensary_id": 6
+    },
+    {
+        "name": "Blue Agape 3.5g",
+        "price": 60.00,
+        "category_id": 1,
+        "brand_id": 24,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Golden Hour 3.5g",
+        "price": 55.00,
+        "category_id": 1,
+        "brand_id": 24,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Key Lime Jack 3.5g",
+        "price": 55.00,
+        "category_id": 1,
+        "brand_id": 24,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Kiwi Sorbet 3.5 g ",
+        "price": 55.00,
+        "category_id": 1,
+        "brand_id": 24,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Pinki Monet",
+        "price": 55.00,
+        "category_id": 1,
+        "brand_id": 24,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Roze OG 1g",
+        "price": 18.00,
+        "category_id": 2,
+        "brand_id": 25,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Santana 1g",
+        "price": 18.00,
+        "category_id": 2,
+        "brand_id": 25,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Riscotti 1g",
+        "price": 14.00,
+        "category_id": 2,
+        "brand_id": 25,
+        "dispensary_id": 7
+    },
+    {
+        "name": "OG Citron 1g",
+        "price": 14.00,
+        "category_id": 2,
+        "brand_id": 25,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Cookie Dough 1g",
+        "price": 16.00,
+        "category_id": 2,
+        "brand_id": 25,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Milk Chocolate Bar",
+        "price": 24.00,
+        "category_id": 3,
+        "brand_id": 26,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Peppermint Bark",
+        "price": 24.00,
+        "category_id": 3,
+        "brand_id": 26,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Smores Chocolate",
+        "price": 22.00,
+        "category_id": 3,
+        "brand_id": 26,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Red Velvet",
+        "price": 15.00,
+        "category_id": 3,
+        "brand_id": 26,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Cherry Pie",
+        "price": 9.09,
+        "category_id": 3,
+        "brand_id": 26,
+        "dispensary_id": 7
+    },
+    {
+        "name": "OG-Cartridge 1g",
+        "price": 25.00,
+        "category_id": 4,
+        "brand_id": 27,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Sour Diesel 1g",
+        "price": 24.00,
+        "category_id": 4,
+        "brand_id": 27,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Cherry Bomb 1g",
+        "price": 24.00,
+        "category_id": 4,
+        "brand_id": 27,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Runtz 1g",
+        "price": 25.00,
+        "category_id": 4,
+        "brand_id": 27,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Orange Cookies",
+        "price": 25.00,
+        "category_id": 4,
+        "brand_id": 27,
+        "dispensary_id": 7
+    },
+    {
+        "name": "Black Zourz 7g",
+        "price": 95.00,
+        "category_id": 1,
+        "brand_id": 28,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Guava IX 3.5g",
+        "price": 33.75,
+        "category_id": 1,
+        "brand_id": 28,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Speaker Knockerz",
+        "price": 45.00,
+        "category_id": 1,
+        "brand_id": 28,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Cobra Kush 3g",
+        "price": 42.00,
+        "category_id": 1,
+        "brand_id": 28,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Artist 1.3g",
+        "price": 21.00,
+        "category_id": 2,
+        "brand_id": 29,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Blue Hawaiian (1.3g)",
+        "price": 18.00,
+        "category_id": 2,
+        "brand_id": 29,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Ember Verzace (1.3g)",
+        "price": 18.00,
+        "category_id": 2,
+        "brand_id": 29,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Gelato (.7g)",
+        "price": 12.00,
+        "category_id": 2,
+        "brand_id": 29,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Tropical Blast gummies (100mg)",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 30,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Berry Dream Gummies (100mg)",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 30,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Blue Raspberry Gummies (100mg)",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 30,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Kiwi Strawberry Gummies (100mg)",
+        "price": 8.00,
+        "category_id": 3,
+        "brand_id": 30,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Sunshine OG Live Resin Liquid Diamonds  1g",
+        "price": 43.00,
+        "category_id": 4,
+        "brand_id": 31,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Chem Dawg Live Resin .5g",
+        "price": 31.00,
+        "category_id": 4,
+        "brand_id": 31,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Skywalker OG Live Resin Liquid Diamonds 1g",
+        "price": 43.00,
+        "category_id": 4,
+        "brand_id": 31,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Panama Red X Chemdawg Live Resin 1g",
+        "price": 43.00,
+        "category_id": 4,
+        "brand_id": 31,
+        "dispensary_id": 8
+    },
+    {
+        "name": "Gelato OG 3.5 g",
+        "price": 42.50,
+        "category_id": 1,
+        "brand_id": 32,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Cali Lotus 3.5g",
+        "price": 42.50,
+        "category_id": 1,
+        "brand_id": 32,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Gumdrop",
+        "price": 42.50,
+        "category_id": 1,
+        "brand_id": 32,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Urus",
+        "price": 45.00,
+        "category_id": 1,
+        "brand_id": 32,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Khalifa Kush 1g",
+        "price": 12.07,
+        "category_id": 2,
+        "brand_id": 33,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Hell Raisers 1g",
+        "price": 12.07,
+        "category_id": 2,
+        "brand_id": 33,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Cold Snap 1g",
+        "price": 12.07,
+        "category_id": 2,
+        "brand_id": 33,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Cochino 1g",
+        "price": 12.07,
+        "category_id": 2,
+        "brand_id": 33,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Chocolate Chip Cookie Dough 100mg",
+        "price": 13.06,
+        "category_id": 3,
+        "brand_id": 34,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Dopest Cookie Dough 100mg",
+        "price": 13.06,
+        "category_id": 3,
+        "brand_id": 34,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Cookies & Cream 100mg ",
+        "price": 8.62,
+        "category_id": 3,
+        "brand_id": 34,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Peanut Butter 100mg",
+        "price": 8.42,
+        "category_id": 3,
+        "brand_id": 34,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Green Crack 1g",
+        "price": 11.90,
+        "category_id": 4,
+        "brand_id": 35,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Gusherz 1g",
+        "price": 45.25,
+        "category_id": 4,
+        "brand_id": 35,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Jack Herer 1g ",
+        "price": 11.90,
+        "category_id": 4,
+        "brand_id": 35,
+        "dispensary_id": 9
+    },
+    {
+        "name": "Coma 1g ",
+        "price": 37.71,
+        "category_id": 4,
+        "brand_id": 35,
+        "dispensary_id": 9
+    },
+    {
+        "name": "GOAT Milk 3.5g",
+        "price": 20.35,
+        "category_id": 1,
+        "brand_id": 36,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Backerie 3.5g",
+        "price": 19.39,
+        "category_id": 1,
+        "brand_id": 36,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Elote Man 3.5g",
+        "price": 20.35,
+        "category_id": 1,
+        "brand_id": 36,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Honey Glaze",
+        "price": 20.35,
+        "category_id": 1,
+        "brand_id": 36,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Dahlia 3.5g 7pack",
+        "price": 70.00,
+        "category_id": 2,
+        "brand_id": 37,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Juiced Colors 3.5g 3 pack",
+        "price": 20.35,
+        "category_id": 2,
+        "brand_id": 37,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Avant 3.5g  3 pack",
+        "price": 20.35,
+        "category_id": 2,
+        "brand_id": 37,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Dayday 3.5g 3 pack",
+        "price": 19.25,
+        "category_id": 2,
+        "brand_id": 37,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Tincture 30ml",
+        "price": 90.00,
+        "category_id": 3,
+        "brand_id": 38,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Fruit Punch Splash 100mg gummies",
+        "price": 17.00,
+        "category_id": 3,
+        "brand_id": 38,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Pineapple Paradise gummies 100mg",
+        "price": 17.00,
+        "category_id": 3,
+        "brand_id": 38,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Mango Tango gummies 100mg",
+        "price": 17.00,
+        "category_id": 3,
+        "brand_id": 38,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Razz Tazz 1,000mg",
+        "price": 35.00,
+        "category_id": 4,
+        "brand_id": 39,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Blueberry Cookies 1,000mg",
+        "price": 35.00,
+        "category_id": 4,
+        "brand_id": 39,
+        "dispensary_id": 10
+    },
+    {
+        "name": "King Louis XII 1g cartridge",
+        "price": 33.00,
+        "category_id": 4,
+        "brand_id": 39,
+        "dispensary_id": 10
+    },
+    {
+        "name": "Punch Cartridge 1.025g 91% THC",
+        "price": 60.00,
+        "category_id": 4,
+        "brand_id": 39,
+        "dispensary_id": 10
+    }
+]

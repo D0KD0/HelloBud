@@ -17,7 +17,7 @@ Dispensary.init(
         allowNull: false,
       },
       phone: {
-        type: DataTypes.String,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       address: {
@@ -26,12 +26,13 @@ Dispensary.init(
       city: {
         type: DataTypes.STRING,
       },
-      country: {
+      state: {
         type: DataTypes.STRING,
       },
       zip_code: {
         type: DataTypes.INTEGER,
       },
+      // latitude and longitude
       point: {
         type: DataTypes.GEOMETRY
       }
