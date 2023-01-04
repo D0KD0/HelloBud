@@ -13,14 +13,14 @@
     should build API before move on to handlebars
     no need to use 3rd party API
 
-5. Handlebars [today and thu]
+5. Handlebars [today and thu] 
     deals
     dispensary
     homepage
     learn
-    login
-    products
-    singup
+    login / minjoo
+    products / minjoo
+    singup / minjoo
 
 6. Heroku
     can current github can be connected to heroku?
