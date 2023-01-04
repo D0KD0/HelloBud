@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Bud Man Orange County",
+        "phone": "(949) 520-1021",
+        "address": "1320 East Edinger Ave",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92705",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.712133, -117.922397]
+        }
+    },
+    {
+        "name": "People's Cannabis Dispensary",
+        "phone": "(714) 582-3446",
+        "address": "2721 South Grand Ave",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92705",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.710430, -117.850580]
+        }
+    },
+    {
+        "name": "OC3 Dispensary",
+        "phone": "(714) 754-1348",
+        "address": "3122 South Halladay St",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92705",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.739510, -117.859610]
+        }
+    },
+    {
+        "name": "Medmen Dispensary",
+        "phone": "(714) 786-6888",
+        "address": "2141 S Wright St",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92705",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.717410, -117.846670]
+        }
+    },
+    {
+        "name": "From The Earth",
+        "phone": "(657) 444-7336",
+        "address": "3023 S Orange Ave",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92707",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.706684, -117.863899]
+        }
+    },
+    {
+        "name": "Planet 13 Orange County",
+        "phone": "(562) 732-1313",
+        "address": "3400 W Warner Ave",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92704",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.713511, -117.914630]
+        }
+    },
+    {
+        "name": "420 Central",
+        "phone": "(562) 732-1313",
+        "address": "420 West Central Ave",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92707",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.713019, -117.873187]
+        }
+    },
+    {
+        "name": "420 Central",
+        "phone": "(714) 540-4420",
+        "address": "420 West Central Ave",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92707",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.713019, -117.873187]
+        }
+    },
+    {
+        "name": "Kannabis Works",
+        "phone": "(949) 662-3960",
+        "address": "2106 S Susan St",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92704",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.718075, -117.913332]
+        }
+    },
+    {
+        "name": "Cookies",
+        "phone": "(855) 626-6543",
+        "address": "1821 Newport Cir",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92705",
+        "point": { 
+            "type": "Point",
+            "coordinates": [33.719213, -117.842882]
+        }
+    }
+    
+]
