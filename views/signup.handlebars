@@ -1,50 +1,56 @@
 <div id="signUp" class="container">
     <div class="row">
-    <div class="col-8">
-        <br>
-        <h1><span class="font-weight-bolder">Sign up for more benefits!</span></h1>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">Username</span>
-            </div>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Name" aria-describedby="basic-addon1">
+        <div class="col-8">
+            <br>
+            <h1><span class="font-weight-bolder">Sign up for more benefits!</span></h1>
+            <form class="signup-form">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Username</span>
+                    </div>
+                    <input type="text" class="form-control" id="username-signup" placeholder="Username" aria-label="Name"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Password</span>
+                    </div>
+                    <input type="password" class="form-control" id="password-signup" placeholder="Password" aria-label="Password"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Email</span>
+                    </div>
+                    <input type="email" class="form-control" id="email-signup" placeholder="Your email address here"
+                        aria-label="example@example.com" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                        <div class="input-group-text">
+                            Are you over 21?
+                        </div>
+                        &nbsp;
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active">
+                                <input type="radio" name="options" id="option1" checked> Yes
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="options" id="option2"> No
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-info">Submit</button>
+            </form>
         </div>
-
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">Password</span>
-            </div>
-            <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
-        </div>
-
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">Email</span>
-            </div>
-            <input type="text" class="form-control" placeholder="Your email address here" aria-label="example@example.com" aria-describedby="basic-addon1">
-        </div>
-
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-
-            <div class="input-group-text">
-                Are you over 21?
-            </div>
-            &nbsp;
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active">
-                    <input type="radio" name="options" id="option1" checked> Yes
-                </label>
-                <label class="btn btn-secondary">
-                    <input type="radio" name="options" id="option2"> No
-                </label>
-            </div>
-            </div>
-
-        </div>
-
-        <button type="button" class="btn btn-info">Submit</button>
-
-    </div>
     </div>
 </div>
+
+<script src="../js/signup.js"></script>
