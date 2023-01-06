@@ -1,14 +1,25 @@
 <div id="login" class="container">
     <div class="row">
-    <div class="col-8">
+    <div class="col-6">
         <br>
-        <h3><span class="font-weight-bolder">Enter your username and password</span></h3>
-        <form class="form-sign">
+        <h3><span class="font-weight-bolder">Enter your email address and password</span></h3>
+        <form class="login-form">
 
-            <label for="username-login" class="sr-only">Username</label>
-            <input type="text" class="form-control" id="usermane-login" placeholder="Username" aria-describedby="basic-addon1">
-            <label for="username-login" class="sr-only">Password</label>
-            <input type="password" class="form-control" id="password-login" placeholder="Password" aria-describedby="basic-addon1">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Email</span>
+                    </div>
+                    <input type="email" class="form-control" id="email-signup" placeholder="Your email address here"
+                        aria-label="example@example.com" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Password</span>
+                    </div>
+                    <input type="password" class="form-control" id="password-signup" placeholder="Your password here" aria-label="Password"
+                        aria-describedby="basic-addon1">
+                </div>
 
             <button type="submit" class="btn btn-info">Login</button>
         </form>
