@@ -10,8 +10,14 @@ body {
     box-sizing: border-box;
 }
 
+#map-container {
+    position: relative;
+    height: 810px;
+    width: 100%;
+}
+
 .sidebar {
-    position: absolute;
+    position: relative;
     width: 33.3333%;
     height: 100%;
     top: 0;
@@ -24,6 +30,7 @@ body {
     position: absolute;
     left: 33.3333%;
     width: 66.6666%;
+    height: 100%;
     top: 0;
     bottom: 0;
 }
