@@ -1,13 +1,13 @@
 const loginFormHandler = async (event) => {
     event.preventDefault();
   
-    const name = document.querySelector('#username-login').value.trim();
+    const email = document.querySelector('#email-login').value.trim();
     const password = document.querySelector('#password-login').value.trim();
-    console.log(name, password)
-    if (name && password) {
-        const response = await fetch('/api/users', {
+    console.log(email, password)
+    if (email && password) {
+        const response = await fetch('/api/users/login', {
         method: 'POST',
-        body: JSON.stringify({ name, email, password }),
+        body: JSON.stringify({ email, password }),
         headers: { 'Content-Type': 'application/json' },
       });
   
@@ -21,6 +21,6 @@ const loginFormHandler = async (event) => {
   
   document
     .querySelector('.login-form')
-    .addEventListener('submit', signupFormHandler);
+    .addEventListener('submit', loginFormHandler);
 
 // done up to here, but not sure how to connect this with userRoutes.js
