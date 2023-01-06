@@ -266,7 +266,7 @@ fetch("/api/dispensaries").then(
                     */
                     map.addSource('places', {
                         'type': 'geojson',
-                        'data': stores
+                        'data': dispensaries
                     });
 
                     /**
@@ -274,7 +274,7 @@ fetch("/api/dispensaries").then(
                     * - The location listings on the side of the page
                     * - The markers onto the map
                     */
-                    buildLocationList(stores);
+                    buildLocationList(dispensaries);
                     addMarkers();
                 });
 
@@ -286,11 +286,11 @@ fetch("/api/dispensaries").then(
                 **/
                 function addMarkers() {
                     /* For each feature in the GeoJSON object above: */
-                    for (const marker of stores.features) {
+                    for (const dispensary of dispensaries) {
                         /* Create a div element for the marker. */
                         const el = document.createElement('div');
                         /* Assign a unique `id` to the marker. */
-                        el.id = `marker-${marker.properties.id}`;
+                        el.id = `marker-${dispensary.id}`;
                         /* Assign the `marker` class to each marker for styling. */
                         el.className = 'marker';
 
@@ -299,7 +299,7 @@ fetch("/api/dispensaries").then(
                         * defined above and add it to the map.
                         **/
                         new mapboxgl.Marker(el, { offset: [0, -23] })
-                            .setLngLat(marker.geometry.coordinates)
+                            .setLngLat(dispensary.point.coordinates)
                             .addTo(map);
 
                         /**
@@ -310,9 +310,9 @@ fetch("/api/dispensaries").then(
                         **/
                         el.addEventListener('click', (e) => {
                             /* Fly to the point */
-                            flyToStore(marker);
+                            flyToStore(dispensary);
                             /* Close all other popups and display popup for clicked store */
-                            createPopUp(marker);
+                            createPopUp(dispensary);
                             /* Highlight listing in sidebar */
                             const activeItem = document.getElementsByClassName('active');
                             e.stopPropagation();
@@ -320,7 +320,7 @@ fetch("/api/dispensaries").then(
                                 activeItem[0].classList.remove('active');
                             }
                             const listing = document.getElementById(
-                                `listing-${marker.properties.id}`
+                                `listing-${dispensary.id}`
                             );
                             listing.classList.add('active');
                         });
@@ -330,13 +330,13 @@ fetch("/api/dispensaries").then(
                 /**
                 * Add a listing for each store to the sidebar.
                 **/
-                function buildLocationList(stores) {
-                    for (const store of stores.features) {
+                function buildLocationList(dispensaries) {
+                    for (const dispensary of dispensaries) {
                         /* Add a new listing section to the sidebar. */
                         const listings = document.getElementById('listings');
                         const listing = listings.appendChild(document.createElement('div'));
                         /* Assign a unique `id` to the listing. */
-                        listing.id = `listing-${store.properties.id}`;
+                        listing.id = `listing-${dispensary.id}`;
                         /* Assign the `item` class to each listing for styling. */
                         listing.className = 'item';
 
@@ -344,14 +344,14 @@ fetch("/api/dispensaries").then(
                         const link = listing.appendChild(document.createElement('a'));
                         link.href = '#';
                         link.className = 'title';
-                        link.id = `link-${store.properties.id}`;
-                        link.innerHTML = `${store.properties.address}`;
+                        link.id = `link-${dispensary.id}`;
+                        link.innerHTML = `${dispensary.address}`;
 
                         /* Add details to the individual listing. */
                         const details = listing.appendChild(document.createElement('div'));
-                        details.innerHTML = `${store.properties.city}`;
-                        if (store.properties.phone) {
-                            details.innerHTML += ` &middot; ${store.properties.phoneFormatted}`;
+                        details.innerHTML = `${dispensary.city}`;
+                        if (dispensary.phone) {
+                            details.innerHTML += ` &middot; ${dispensary.phone}`;
                         }
 
                         /**
@@ -362,10 +362,10 @@ fetch("/api/dispensaries").then(
                         * 4. Highlight listing in sidebar (and remove highlight for all other listings)
                         **/
                         link.addEventListener('click', function () {
-                            for (const feature of stores.features) {
-                                if (this.id === `link-${feature.properties.id}`) {
-                                    flyToStore(feature);
-                                    createPopUp(feature);
+                            for (const dispensary of dispensaries) {
+                                if (this.id === `link-${dispensary.id}`) {
+                                    flyToStore(dispensary);
+                                    createPopUp(dispensary);
                                 }
                             }
                             const activeItem = document.getElementsByClassName('active');
@@ -381,9 +381,10 @@ fetch("/api/dispensaries").then(
                 * Use Mapbox GL JS's `flyTo` to move the camera smoothly
                 * a given center point.
                 **/
-                function flyToStore(currentFeature) {
+                function flyToStore(dispensary) {
+                    console.log(dispensary.point.coordinates)
                     map.flyTo({
-                        center: currentFeature.geometry.coordinates,
+                        center: dispensary.point.coordinates,
                         zoom: 15
                     });
                 }
@@ -391,13 +392,13 @@ fetch("/api/dispensaries").then(
                 /**
                 * Create a Mapbox GL JS `Popup`.
                 **/
-                function createPopUp(currentFeature) {
+                function createPopUp(dispensary) {
                     const popUps = document.getElementsByClassName('mapboxgl-popup');
                     if (popUps[0]) popUps[0].remove();
                     const popup = new mapboxgl.Popup({ closeOnClick: false })
-                        .setLngLat(currentFeature.geometry.coordinates)
+                        .setLngLat(dispensary.point.coordinates)
                         .setHTML(
-                            `<h3>Sweetgreen</h3><h4>${currentFeature.properties.address}</h4>`
+                            `<h3>Sweetgreen</h3><h4>${dispensary.address}</h4>`
                         )
                         .addTo(map);
                 }
