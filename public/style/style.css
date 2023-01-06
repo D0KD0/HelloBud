@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #2a2a2a, #1a1a1a);
+    color: rgb(235, 235, 235);
+
+}
+
+.hash-img {
+    width: 60%;
+    height: 50%;
+}
+
+.accordion-button {
+    background-color: rgb(167, 206, 240);
+}
