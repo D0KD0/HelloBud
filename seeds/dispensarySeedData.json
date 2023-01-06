@@ -84,18 +84,6 @@
         }
     },
     {
-        "name": "420 Central",
-        "phone": "(714) 540-4420",
-        "address": "420 West Central Ave",
-        "city": "Santa Ana",
-        "state": "CA",
-        "zip_code": "92707",
-        "point": { 
-            "type": "Point",
-            "coordinates": [-117.873187, 33.713019]
-        }
-    },
-    {
         "name": "Kannabis Works",
         "phone": "(949) 662-3960",
         "address": "2106 S Susan St",
@@ -105,6 +93,18 @@
         "point": { 
             "type": "Point",
             "coordinates": [-117.913332, 33.718075]
+        }
+    },
+    {
+        "name": "Jungle Boys",
+        "phone": "(714) 468-3831",
+        "address": "2911 Tech Center Dr",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92705",
+        "point": { 
+            "type": "Point",
+            "coordinates": [-117.873187, 33.713019]
         }
     },
     {
