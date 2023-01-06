@@ -6,11 +6,6 @@ router.get("/", async (req, res) => {
 
 router.get("/products", async (req, res) => {
     res.render("products")
-
-    
-
-
-
 })
 
 router.get("/dispensary", async (req, res) => {
@@ -30,6 +25,9 @@ router.get("/login", async (req, res) => {
     res.render("login")
 })
 
+router.get("/logout", async (req, res) => {
+    res.render("logout")
+})
 
 router.get("/signup", async (req, res) => {
     res.render("signup")

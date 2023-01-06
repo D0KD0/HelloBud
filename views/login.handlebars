@@ -3,21 +3,16 @@
     <div class="col-8">
         <br>
         <h3><span class="font-weight-bolder">Enter your username and password</span></h3>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">Username</span>
-            </div>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Name" aria-describedby="basic-addon1">
-        </div>
+        <form class="form-sign">
 
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">Password</span>
-            </div>
-            <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
-        </div>
+            <label for="username-login" class="sr-only">Username</label>
+            <input type="text" class="form-control" id="usermane-login" placeholder="Username" aria-describedby="basic-addon1">
+            <label for="username-login" class="sr-only">Password</label>
+            <input type="password" class="form-control" id="password-login" placeholder="Password" aria-describedby="basic-addon1">
 
-        <button type="button" class="btn btn-info">Login</button>
+            <button type="submit" class="btn btn-info">Login</button>
+        </form>
+
 
     </div>
     </div>
