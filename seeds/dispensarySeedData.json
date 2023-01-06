@@ -8,7 +8,7 @@
         "zip_code": "92705",
         "point": { 
             "type": "Point",
-            "coordinates": [33.712133, -117.922397]
+            "coordinates": [-117.922397, 33.712133]
         }
     },
     {
@@ -20,7 +20,7 @@
         "zip_code": "92705",
         "point": { 
             "type": "Point",
-            "coordinates": [33.710430, -117.850580]
+            "coordinates": [-117.850580, 33.710430]
         }
     },
     {
@@ -32,7 +32,7 @@
         "zip_code": "92705",
         "point": { 
             "type": "Point",
-            "coordinates": [33.739510, -117.859610]
+            "coordinates": [-117.859610, 33.739510]
         }
     },
     {
@@ -44,7 +44,7 @@
         "zip_code": "92705",
         "point": { 
             "type": "Point",
-            "coordinates": [33.717410, -117.846670]
+            "coordinates": [-117.846670, 33.717410]
         }
     },
     {
@@ -56,7 +56,7 @@
         "zip_code": "92707",
         "point": { 
             "type": "Point",
-            "coordinates": [33.706684, -117.863899]
+            "coordinates": [-117.863899, 33.706684]
         }
     },
     {
@@ -68,7 +68,7 @@
         "zip_code": "92704",
         "point": { 
             "type": "Point",
-            "coordinates": [33.713511, -117.914630]
+            "coordinates": [-117.914630, 33.713511]
         }
     },
     {
@@ -80,19 +80,7 @@
         "zip_code": "92707",
         "point": { 
             "type": "Point",
-            "coordinates": [33.713019, -117.873187]
-        }
-    },
-    {
-        "name": "420 Central",
-        "phone": "(714) 540-4420",
-        "address": "420 West Central Ave",
-        "city": "Santa Ana",
-        "state": "CA",
-        "zip_code": "92707",
-        "point": { 
-            "type": "Point",
-            "coordinates": [33.713019, -117.873187]
+            "coordinates": [-117.873187, 33.713019]
         }
     },
     {
@@ -104,7 +92,19 @@
         "zip_code": "92704",
         "point": { 
             "type": "Point",
-            "coordinates": [33.718075, -117.913332]
+            "coordinates": [-117.913332, 33.718075]
+        }
+    },
+    {
+        "name": "Jungle Boys",
+        "phone": "(714) 468-3831",
+        "address": "2911 Tech Center Dr",
+        "city": "Santa Ana",
+        "state": "CA",
+        "zip_code": "92705",
+        "point": { 
+            "type": "Point",
+            "coordinates": [-117.873187, 33.713019]
         }
     },
     {
@@ -116,7 +116,7 @@
         "zip_code": "92705",
         "point": { 
             "type": "Point",
-            "coordinates": [33.719213, -117.842882]
+            "coordinates": [-117.842882, 33.719213]
         }
     }
     
