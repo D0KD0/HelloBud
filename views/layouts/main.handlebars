@@ -45,10 +45,12 @@
                     Account
                     </a>
                     <div class="dropdown-menu">
+                    {{#if logged_in}}
+                    <a class="dropdown-item" href="" id="logout">Logout</a>
+                    {{else}}
                     <a class="dropdown-item" href="/login">Login</a>
-                    <a class="dropdown-item" href="/logout">Logout</a>
-                    <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="/signup">Sign up</a>
+                    {{/if}}
                     </div>
                 </li>
 
@@ -58,6 +60,10 @@
     </header>
     <main>
         {{{body}}}
+
+        {{#if logged_in}}
+        <script src="../../js/logout.js"></script> 
+        {{/if}}
 
     </main>
 </body>
