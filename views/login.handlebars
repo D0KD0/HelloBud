@@ -3,27 +3,27 @@
     <div class="col-6">
         <br>
         <h3><span class="font-weight-bolder">Enter your email address and password</span></h3>
-        <form class="login-form">
+        <div class="text-danger" id="errors"></div>
+                <form class="login-form">
 
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">Email</span>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Email</span>
+                        </div>
+                        <input type="email" class="form-control" id="email-login" placeholder="Your email address here"
+                            aria-label="example@example.com" aria-describedby="basic-addon1">
                     </div>
-                    <input type="email" class="form-control" id="email-login" placeholder="Your email address here"
-                        aria-label="example@example.com" aria-describedby="basic-addon1">
-                </div>
 
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">Password</span>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Password</span>
+                        </div>
+                        <input type="password" class="form-control" id="password-login" placeholder="Your password here" aria-label="Password"
+                            aria-describedby="basic-addon1">
                     </div>
-                    <input type="password" class="form-control" id="password-login" placeholder="Your password here" aria-label="Password"
-                        aria-describedby="basic-addon1">
-                </div>
 
-            <button type="submit" class="btn btn-info">Login</button>
-        </form>
-
+                <button type="submit" class="btn btn-info">Login</button>
+            </form>    
 
     </div>
     </div>

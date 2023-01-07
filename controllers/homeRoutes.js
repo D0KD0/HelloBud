@@ -3,7 +3,10 @@ const router = require('express').Router();
 const { Dispensary } = require('../models');
 
 router.get("/", async (req, res) => {
-    res.render("homepage")
+    // logout visible when it is logged in
+    res.render('homepage', { 
+        logged_in: req.session.logged_in 
+      });
 })
 
 router.get("/products", async (req, res) => {
