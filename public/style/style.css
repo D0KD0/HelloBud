@@ -1,8 +1,37 @@
 * {
     margin: 0;
     padding: 0;
-    color: azure;
+    background-color: #f9f7f0;
 }
+
+/* Main handlebar style */
+.hb-logo {
+    width: 15%;
+    height: 15%;
+}
+
+.navbar, .navbar-toggler, .navbar-toggler-icon, .collapse, .nav-item {
+    background-color: #221c18;
+    font-family: sans-serif;
+}
+
+.nav-link, .nav-item {
+    color: #f9f7f0;
+}
+
+.nav-link:hover {
+    color:rgb(34, 200, 145);
+}
+
+.dropdown-menu {
+    color: #f9f7f0;
+}
+
+.dropdown-item:hover {
+    color: #415143;
+}
+
+/* Learn handlebar */
 
 #learn {
     font-family: sans-serif;
