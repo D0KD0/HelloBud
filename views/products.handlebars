@@ -1,24 +1,56 @@
-<div id="products">
-  <ul class="list-group list-group-horizontal">
-    <li class="list-group-item">Flower</li>
-    <li class="list-group-item">Cartridges</li>
-    <li class="list-group-item">Concentrates</li>
-    <li class="list-group-item">Edibles</li>
-  </ul>
+<div class="container py-4">
+  <div class="row text-center">
+    {{#each categories as |category|}}
 
-  <div class="container-fluid" id="detailed-products">
-      <div class="container">
-          <div class="row">
-              <div class="col">Prod 1</div>
-              <div class="col">Prod 2</div>
-              <div class="col">Prod 3</div>
-              <div class="col">Prod 4</div>
-              <div class="col">Prod 5</div>
-              <div class="col">Prod 6</div>
-              <div class="col">Prod 7</div>
-              <div class="col">Prod 8</div>
-              <div class="col">Prod 9</div>
-          </div>
-      </div>
+    <div class="col-3">
+      <a href="/categories/{{category.id}}" class="text-decoration-none">
+        <img class="img-responsive" src="../images/category-{{category.id}}.jpg">
+        <div class="text-dark">
+          {{category.name}}
+        </div>
+      </a>
+    </div>
+    {{/each}}
   </div>
 </div>
+
+
+<div style="padding: 0px 170px 0px 170px ;">
+  <h2 class="pt-3 pb-4">Products</h2>
+  <div class="row mb-3">
+    {{#each products as |product|}}
+    <div class="col-3 mb-5">
+      <div class="card" style="width: 200px; height: 380px">
+        <img class="img-responsive" src="../images/HelloBud_logo.png">
+        <div class="ml-2">
+          <p class="pt-1" style="font-size: 0.7rem;">{{product.category.name}}</p>
+          <h5>{{product.name}}</h5>
+          <p style="font-size: 0.7rem;">{{product.brand.name}}</p>
+          <h5>${{product.price}} <span style="font-size: 0.7rem;"> each</span></h5>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      {{#if showAllProducts}}
+      <li id="page-1" class="page-item"><a class="page-link text-dark" href="/products?page=1">1</a></li>
+      <li id="page-2" class="page-item"><a class="page-link text-dark" href="/products?page=2">2</a></li>
+      <li id="page-3" class="page-item"><a class="page-link text-dark" href="/products?page=3">3</a></li>
+      <li id="page-4" class="page-item"><a class="page-link text-dark" href="/products?page=4">4</a></li>
+      <li id="page-5" class="page-item"><a class="page-link text-dark" href="/products?page=5">5</a></li>
+      <li id="page-6" class="page-item"><a class="page-link text-dark" href="/products?page=6">6</a></li>
+      <li id="page-7" class="page-item"><a class="page-link text-dark" href="/products?page=7">7</a></li>
+      <li id="page-8" class="page-item"><a class="page-link text-dark" href="/products?page=8">8</a></li>
+      <li id="page-9" class="page-item"><a class="page-link text-dark" href="/products?page=9">9</a></li9
+      {{else}}
+      <li id="page-1" class="page-item"><a class="page-link text-dark" href="/categories/{{id}}?page=1">1</a></li>
+      <li id="page-2" class="page-item"><a class="page-link text-dark" href="/categories/{{id}}?page=2">2</a></li>
+      <li id="page-3" class="page-item"><a class="page-link text-dark" href="/categories/{{id}}?page=3">3</a></li>
+      {{/if}}
+    </ul>
+  </nav>
+</div>
+
+<script src="../js/product.js"></script>
