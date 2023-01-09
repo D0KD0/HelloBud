@@ -1,5 +1,5 @@
 const router = require('express').Router();
-
+const _ = require('lodash/core');
 const { Product, Category, Dispensary, Brand } = require('../models');
 
 
@@ -33,8 +33,8 @@ router.get("/categories/:id", async (req, res) => {
             offset: (page - 1) * 20
         });
         const categoryData = await Category.findAll({});
-        const products = productData.map((product) => product.get({ plain: true }));
-        const categories = categoryData.map((category) => category.get({ plain: true }));
+        const products = _.map(productData, (product) => product.get({ plain: true }));
+        const categories = _.map(categoryData, (category) => category.get({ plain: true }));
         res.render("products", {id, categories, products, logged_in: req.session.logged_in });
     } catch (err) {
         res.status(500).json(err);
