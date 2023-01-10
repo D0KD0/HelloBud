@@ -22,3 +22,8 @@ The page is built for educational purpose and does not support actual purchasing
 ## Deployment
 https://hellobud.herokuapp.com/
 
+## Credits
+[UC Berkeley Extension Coding Bootcamp](https://extension.berkeley.edu/search/publicCourseSearchDetails.do?method=load&courseId=32030644)
+[CBD images](https://pixabay.com/)
+[CBD products](https://weedmaps.com/)
+
