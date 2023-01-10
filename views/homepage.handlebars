@@ -1,3 +1,32 @@
-<div id="frontPage">
-    Hi this is front page
+<div id="frontPage" class="m-5">
+    <div class="d-flex flex-row justify-content-between">
+        <h2>Featured brands</h2>
+        <h5>view all</h5>
+    </div>
+    <div>
+        <div class="d-flex flex-row justify-content-around flex-wrap">
+            {{#each brands as |brand|}}
+            <div class="" style="width:200px; height:auto">
+                <img class="" src="../images/HelloBud_logo.png" style="width:200px; height:auto">
+                <h6 class="p-2">{{brand.name}}</h6>
+            </div>
+            {{/each}}
+        </div>
+
+    </div>
+    <div class="d-flex flex-row justify-content-between">
+        <h2>Dispensary storefronts</h2>
+        <a href="/dispensary" class="text-dark"><h5>view all</h5></a>
+    </div>
+    <div>
+        <div class="d-flex flex-row justify-content-around flex-wrap">
+            {{#each dispensaries as |dispensary|}}
+            <div class="" style="width:200px; height:auto">
+                <img class="" src="../images/HelloBud_logo.png" style="width:200px; height:auto">
+                <h6 class="p-2">{{dispensary.name}}</h6>
+            </div>
+            {{/each}}
+        </div>
+
+    </div>
 </div>
