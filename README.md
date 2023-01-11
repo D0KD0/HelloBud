@@ -20,7 +20,7 @@ The page is built for educational purpose and does not support actual purchasing
 <img src="public/images/screenshot.png">
 
 ## Deployment
-https://hellobud.herokuapp.com/
+https://hellobud-app.herokuapp.com/
 
 ## Credits
 -[UC Berkeley Extension Coding Bootcamp](https://extension.berkeley.edu/search/publicCourseSearchDetails.do?method=load&courseId=32030644)
