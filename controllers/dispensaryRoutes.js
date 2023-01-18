@@ -1,19 +1,26 @@
 const router = require('express').Router();
 const _ = require('lodash/core');
-const { Product, Category, Dispensary, Brand } = require('../models');
-
+const {Dispensary, Brand, Category, Product} = require("../models");
 
 router.get("/:id", async (req, res) => {
     try {
-        let page = 1;
-        if (req.query.page) {
-            page = parseInt(req.query.page);
-        }
         const id = req.params.id;
         
+        const dispensaryData = await Dispensary.findOne({
+            where: {
+                id: id,
+            },
+        });
+
+        const brandData = await Brand.findAll({
+            where: {
+                dispensary_id: id,
+            },
+        });
+
         const productData = await Product.findAll({
             where: {
-                category_id: id
+                dispensary_id: id,
             },
             include: [
                 {
@@ -29,16 +36,19 @@ router.get("/:id", async (req, res) => {
                     attributes: ['name'],
                 }
             ],
-            limit: 20,
-            offset: (page - 1) * 20
         });
+
         const categoryData = await Category.findAll({});
-        const products = _.map(productData, (product) => product.get({ plain: true }));
         const categories = _.map(categoryData, (category) => category.get({ plain: true }));
-        res.render("products", {id, categories, products, logged_in: req.session.logged_in });
+
+        const brands = _.map(brandData, (brand) => brand.get({ plain: true }));
+        const dispensary = dispensaryData.get({plain: true})
+        const products = _.map(productData, (product) => product.get({ plain: true }));
+        console.log(products)
+        res.render("dispensaryDetail", {dispensary, brands, categories, products});
     } catch (err) {
         res.status(500).json(err);
     }
-})
+});
 
-module.exports = router;
+module.exports = router

@@ -21,7 +21,7 @@ Product.init(
         allowNull: true,
       },
       price: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.DECIMAL(12, 2),
         allowNull: false,
       },
       category_id: {
