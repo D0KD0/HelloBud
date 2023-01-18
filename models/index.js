@@ -30,4 +30,9 @@ Product.belongsTo(Brand, {
   foreignKey: 'brand_id'
 });
 
+// dispensary and brand
+Brand.belongsTo(Dispensary, {
+    foreignKey: 'dispensary_id'
+});
+
 module.exports = { User, Product, OrderProduct, Order, Category, Brand, Dispensary};

@@ -16,6 +16,13 @@ Brand.init(
         type: DataTypes.STRING,
         allowNull: false,
       },
+      dispensary_id: {
+        type: DataTypes.INTEGER,
+        references: {
+            model: 'dispensary',
+            key: 'id',
+        },
+    },
     },
     {
       sequelize,

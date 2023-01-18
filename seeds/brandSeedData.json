@@ -1,119 +1,159 @@
 [
     {
-        "name": "Koolato"
+        "name": "Koolato",
+        "dispensary_id": 1
     },
     {
-        "name": "West Coast Cure"
+        "name": "West Coast Cure",
+        "dispensary_id": 1
+        
     },
     {
-        "name": "Hippie Snacks Cereal"
+        "name": "Hippie Snacks Cereal",
+        "dispensary_id": 1
     },
     {
-        "name": "STIIIZY Solventless Live Rosin"
+        "name": "STIIIZY Solventless Live Rosin",
+        "dispensary_id": 1
     },
     {
-        "name": "A Golden State" 
+        "name": "A Golden State",
+        "dispensary_id": 2
     },
     {
-        "name": "Binske"
+        "name": "Binske",
+        "dispensary_id": 2
     },
     {
-        "name": "Breeze"
+        "name": "Breeze",
+        "dispensary_id": 2
     },
     {
-        "name": "LOLO"
+        "name": "LOLO",
+        "dispensary_id": 3
     },
     {
-        "name": "Dime Bag"
+        "name": "Dime Bag",
+        "dispensary_id": 3
     },
     {
-        "name": "Dr.Norms"
+        "name": "Dr.Norms",
+        "dispensary_id": 3
     },
     {
-        "name": "Heavy Hitters"
+        "name": "Heavy Hitters",
+        "dispensary_id": 3
     },
     {
-        "name": "Cannabiotix"
+        "name": "Cannabiotix",
+        "dispensary_id": 4
     },
     {
-        "name": "Selfies"
+        "name": "Selfies",
+        "dispensary_id": 4
     },
     {
-        "name": "WYLD"
+        "name": "WYLD",
+        "dispensary_id": 4
     },
     {
-        "name": "Kurvana"
+        "name": "Kurvana",
+        "dispensary_id": 4
     },
     {
-        "name": "Source Cannabis"
+        "name": "Source Cannabis",
+        "dispensary_id": 5
     },
     {
-        "name": "RNBW"
+        "name": "RNBW",
+        "dispensary_id": 5
     },
     {
-        "name": "Mystery Baking"
+        "name": "Mystery Baking",
+        "dispensary_id": 5
     },
     {
-        "name": "West Coast Cure "
+        "name": "West Coast Cure ",
+        "dispensary_id": 5
     },
     {
-        "name": "7 Leaves"
+        "name": "7 Leaves",
+        "dispensary_id": 6
     },
     {
-        "name": "American Weed Co."
+        "name": "American Weed Co.",
+        "dispensary_id": 6
     },
     {
-        "name": "Cann"
+        "name": "Cann",
+        "dispensary_id": 6
     },
     {
-        "name": "Stack N Tree"
+        "name": "Stack N Tree",
+        "dispensary_id": 6
     },
     {
-        "name": "Maven Genetics "
+        "name": "Maven Genetics ",
+        "dispensary_id": 7
     },
     {
-        "name": "710 Labs"
+        "name": "770 Labs",
+        "dispensary_id": 7
     },
     {
-        "name": "Kiva"
+        "name": "Kiva",
+        "dispensary_id": 7
     },
     {
-        "name": "Gelato"
+        "name": "Gelato",
+        "dispensary_id": 7
     },
     {
-        "name": "Amplified Farms"
+        "name": "Amplified Farms",
+        "dispensary_id": 8
     },
     {
-        "name": "CLSICS"
+        "name": "CLSICS",
+        "dispensary_id": 8
     },
     {
-        "name": "Allswell"
+        "name": "Allswell",
+        "dispensary_id": 8
     },
     {
-        "name": "Buddies"
+        "name": "Buddies",
+        "dispensary_id": 8
     },
     {
-        "name": "CAM"
+        "name": "CAM",
+        "dispensary_id": 9
     },
     {
-        "name": "Khalifa Kush"
+        "name": "Khalifa Kush",
+        "dispensary_id": 9
     },
     {
-        "name": "Cosmic Edibles"
+        "name": "Cosmic Edibles",
+        "dispensary_id": 9
     },
     {
-        "name": "Crystal Clear"
+        "name": "Crystal Clear",
+        "dispensary_id": 9
     },
     {
-        "name": "Fiore"
+        "name": "Fiore",
+        "dispensary_id": 10
     },
     {
-        "name": "Cultivation"
+        "name": "Cultivation",
+        "dispensary_id": 10
     },
     {
-        "name": "Care By Design"
+        "name": "Care By Design",
+        "dispensary_id": 10
     },
     {
-        "name": "Muha Meds"
+        "name": "Muha Meds",
+        "dispensary_id": 10
     }
 ]

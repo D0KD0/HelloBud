@@ -65,8 +65,8 @@ router.get("/products", async (req, res) => {
     }
 })
 
-router.get("/dispensary", async (req, res) => {
-    res.render("dispensary");
+router.get("/dispensaries", async (req, res) => {
+    res.render("dispensaries");
 })
 
 router.get("/deals", async (req, res) => {

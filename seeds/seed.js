@@ -11,9 +11,9 @@ const seedDatabase = async () => {
 
     const categories = await Category.bulkCreate(categorySeedData);
 
-    const brands = await Brand.bulkCreate(brandSeedData);
-
     const dispensaries = await Dispensary.bulkCreate(dispensarySeedData);
+
+    const brands = await Brand.bulkCreate(brandSeedData);
 
     const products = await Product.bulkCreate(productSeedData);
 

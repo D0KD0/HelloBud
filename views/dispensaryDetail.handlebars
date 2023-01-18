@@ -1,0 +1,72 @@
+<div class="container">
+    <div class="d-flex flex-row justify-content-start align-items-center">
+        <img class="" src="../images/HelloBud_logo.png" style="width:200px; height:auto">
+        <div>
+            <h2>{{dispensary.name}}</h2>
+        </div>
+    </div>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Deals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Reviews</a>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="row py-3">
+        <div class="col-2">
+            <h5>
+                Categories
+            </h5>
+            <nav class="nav flex-column ">
+                <a class="py-2 text-dark active" href="#">All Product</a>
+                {{#each categories as |category|}}
+                <a class="py-2 text-dark " href="#">{{category.name}}</a>
+                {{/each}}
+            </nav>
+            <h5 class="mt-5">
+                Brands
+            </h5>
+            <div>
+                {{#each brands as |brand|}}
+                <div class="py-2">{{brand.name}}</div>
+                {{/each}}
+            </div>
+
+
+        </div>
+        <div class="col-10">
+            {{!-- {{#each dispensaries as |dispensary|}}
+            <a href="/dispensaries/{{dispensary.id}}" class="text-dark">
+                <div class="" style="width:200px; height:auto">
+                    <img class="" src="../images/HelloBud_logo.png" style="width:200px; height:auto">
+                    <h6 class="p-2">{{dispensary.name}}</h6>
+                </div>
+            </a>
+            
+            {{/each}} --}}
+            {{#each products as |product|}}
+            <div class="row my-5" >
+                <div class="row">
+                    <img class="" src="../images/HelloBud_logo.png" style="width: 120px; height:auto">
+                    <div>
+                        <h6>{{product.name}}</h6>
+                        <div>{{product.brand.name}}</div>
+                        <div>Reviews</div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                    
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
