@@ -116,7 +116,7 @@ fetch("/api/dispensaries").then(
                         }
 
                         const menuBtn = listing.appendChild(document.createElement('a'));
-                        menuBtn.href = '#';
+                        menuBtn.href = `/dispensaries/${dispensary.id}`;
                         menuBtn.className = 'btn btn-secondary rounded d-block';
                         menuBtn.id = `menu-${dispensary.id}`;
                         menuBtn.innerHTML = `View Menu`;
